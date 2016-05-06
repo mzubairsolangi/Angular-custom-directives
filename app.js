@@ -1,5 +1,5 @@
 /**
- * Created by admin on 5/5/2016.
+ * Created by Muhammad Zubair on 5/5/2016.
  */
 angular.module('abc',[])
     .controller('ctrl',ctrl);
@@ -7,6 +7,9 @@ angular.module('abc',[])
 ctrl.$inject = ['$scope','$window'];
 
 function ctrl ($scope, $window){
+
+    //increment decrement value
+    $scope.value = 1;
 
     // rating stars
     $scope.rating = 5;

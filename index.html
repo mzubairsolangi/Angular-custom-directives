@@ -17,6 +17,7 @@
     <script src="app.js"></script>
     <script src="directives/header.js"></script>
     <script src="directives/stars.js"></script>
+    <script src="directives/increament-dec-value.js"></script>
 </head>
 
 <body ng-app="abc"  ng-controller="ctrl">
@@ -31,6 +32,9 @@
             </span>
     <div solangi-rating rating-value="rating" max="10" on-rating-selected="saveRatingToServer(rating)"></div>
 </div>
+
+<h3>Increment Decrement Values</h3>
+<custom-increment-decrement></custom-increment-decrement>
 
 </body>
 </html>
